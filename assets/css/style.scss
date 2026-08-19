@@ -11,6 +11,21 @@ body {
   line-height: 1.8;
 }
 
+.post-content img {
+  border-radius: 0.5rem;
+  display: block;
+  height: auto;
+  margin: 2rem auto 0.5rem;
+  width: 100%;
+}
+
+.post-content img + em {
+  color: #57606a;
+  display: block;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
 .post-content blockquote {
   background: #f6f8fa;
   border-left-color: #8c959f;

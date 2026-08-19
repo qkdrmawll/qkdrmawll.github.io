@@ -20,7 +20,8 @@ tags:
 
 워크숍에 대한 자세한 내용은 [Ticketa 이벤트 페이지](https://ticketa.co/event/c99wxzdg)에서 확인할 수 있습니다.
 
-> 📷 이곳에 워크숍 현장 사진을 추가할 예정입니다.
+![참가자들이 GitHub Copilot 실습을 진행하는 워크숍 현장]({{ '/assets/images/posts/github-copilot-multi-agent-workshop/workshop-overview.jpg' | relative_url }})
+*GitHub Copilot 멀티 에이전트 바이브 코딩 워크숍 현장*
 
 ## 멀티 에이전트 바이브 코딩 워크숍
 
@@ -30,7 +31,8 @@ tags:
 
 처음부터 바로 개발에 들어가는 것이 아니라, 바이브 코딩을 하기 위해 필요한 개념과 준비 과정부터 하나씩 살펴보았습니다.
 
-> 📷 이곳에 워크숍 소개 또는 발표 화면 사진을 추가할 예정입니다.
+![Aspire를 소개하는 워크숍 발표 현장]({{ '/assets/images/posts/github-copilot-multi-agent-workshop/aspire-presentation.jpg' | relative_url }})
+*Aspire와 개발 인프라에 대한 설명*
 
 전체적인 진행 순서는 다음과 같았습니다.
 
@@ -62,7 +64,8 @@ GitHub Copilot이 프로젝트에서 어떻게 행동해야 하는지를 정의�
 
 결국 바이브 코딩에서도 중요한 것은 단순히 좋은 프롬프트 하나를 작성하는 것이 아니라, **AI가 프로젝트를 제대로 이해하고 작업할 수 있는 컨텍스트와 기준을 만들어주는 것**이라는 점을 다시 느낄 수 있었습니다.
 
-> 📷 이곳에 AGENTS.md, PRD.md, TRD.md 설명 화면 사진을 추가할 예정입니다.
+![AI, 도구, 인프라로 구성된 에이전트 개발의 세 가지 계층]({{ '/assets/images/posts/github-copilot-multi-agent-workshop/agent-development-layers.jpg' | relative_url }})
+*AI·LLM, 도구, 인프라로 구성된 에이전트 개발의 세 가지 계층*
 
 ## 그리고 본격적인 개발 시작 🚀
 
@@ -72,7 +75,8 @@ GitHub Copilot을 활용해 요구사항을 분석하고 코드를 생성하면�
 
 저는 이때 프록터로서 참가자분들이 실습을 진행하다가 문제가 생기거나 막히는 부분이 있을 때 함께 확인하고 해결하는 역할을 맡았습니다.
 
-> 📷 이곳에 팀별 개발 진행 사진을 추가할 예정입니다.
+![급식배틀 애플리케이션을 개발하는 참가자들]({{ '/assets/images/posts/github-copilot-multi-agent-workshop/team-development.jpg' | relative_url }})
+*GitHub Copilot과 함께 급식배틀 애플리케이션을 개발하는 모습*
 
 생각보다 정말 많은 질문을 받았습니다. 😂
 
@@ -93,8 +97,6 @@ GitHub Copilot을 활용해 요구사항을 분석하고 코드를 생성하면�
 > 어떻게 설명해야 가장 이해하기 쉬울까?
 
 특히 여러 참가자의 서로 다른 문제를 짧은 시간 안에 파악하고 해결해야 했기 때문에 저 역시 많이 공부할 수 있었던 시간이었습니다.
-
-> 📷 이곳에 프록터 활동 중인 사진 또는 참가자들과 함께 있는 사진을 추가할 예정입니다.
 
 ## GitHub를 더 깊게 알아가는 중
 
