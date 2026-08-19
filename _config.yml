@@ -1,0 +1,26 @@
+title: qkdrmawll's GitHub Blog
+description: GitHub와 개발 경험을 기록하는 블로그
+lang: ko-KR
+timezone: Asia/Seoul
+
+url: "https://qkdrmawll.github.io"
+baseurl: ""
+
+theme: minima
+plugins:
+  - jekyll-feed
+
+minima:
+  date_format: "%Y년 %m월 %d일"
+
+header_pages:
+  - index.md
+
+permalink: /:categories/:year/:month/:day/:title/
+
+exclude:
+  - .bundle
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor

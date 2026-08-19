@@ -1,0 +1,20 @@
+---
+---
+
+@import "minima";
+
+body {
+  word-break: keep-all;
+}
+
+.post-content {
+  line-height: 1.8;
+}
+
+.post-content blockquote {
+  background: #f6f8fa;
+  border-left-color: #8c959f;
+  color: #57606a;
+  font-style: normal;
+  padding: 0.75rem 1rem;
+}
