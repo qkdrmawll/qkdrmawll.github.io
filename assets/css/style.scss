@@ -8,21 +8,37 @@ body {
 }
 
 .post-content {
-  line-height: 1.8;
+  line-height: 1.75;
 }
 
-.post-content img {
+.post-content p,
+.post-content ol,
+.post-content ul,
+.post-content blockquote {
+  margin-bottom: 1.25rem;
+}
+
+.post-content h2 {
+  margin-bottom: 1rem;
+  margin-top: 2.75rem;
+}
+
+.post-figure {
+  margin: 2rem 0;
+}
+
+.post-figure img {
   border-radius: 0.5rem;
   display: block;
   height: auto;
-  margin: 2rem auto 0.5rem;
+  margin: 0;
   width: 100%;
 }
 
-.post-content img + em {
+.post-figure figcaption {
   color: #57606a;
-  display: block;
   font-size: 0.9rem;
+  margin-top: 0.5rem;
   text-align: center;
 }
 
