@@ -2,6 +2,7 @@
 layout: post
 title: "GitHub Copilot 멀티 에이전트 바이브 코딩 워크숍 프록터 참여 후기"
 date: 2026-08-19 10:00:00 +0900
+image: /assets/images/posts/github-copilot-multi-agent-workshop/workshop-overview.jpg
 categories:
   - GitHub
   - Copilot
