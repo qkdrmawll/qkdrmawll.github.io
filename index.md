@@ -37,7 +37,6 @@ title: 홈
                 {% endif %}
               </p>
               <h3>{{ post.title }}</h3>
-              <p class="post-card-excerpt">{{ post.excerpt | strip_html | normalize_whitespace | truncate: 150 }}</p>
               <span class="post-card-link">글 읽기</span>
             </div>
           </a>
