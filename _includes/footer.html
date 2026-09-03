@@ -1,0 +1,23 @@
+{%- assign nav_items = "Blog,Meetup Recaps,Dev Notes,GitHub &amp; Copilot,About,Archive" | split: "," -%}
+<footer class="site-footer">
+  <div class="site-footer-inner wrapper">
+    <div class="footer-brand">
+      <a class="brand" href="{{ '/' | relative_url }}">
+        <span class="brand-mark" aria-hidden="true">
+          <span class="brand-slash"></span>
+          <span class="brand-dot"></span>
+        </span>
+        <span class="brand-text">
+          <span class="brand-name">{{ site.title | default: "eunjibang.dev" }}</span>
+          <span class="brand-copy">© {{ site.time | date: "%Y" }} EUNJI BANG. All rights reserved.</span>
+        </span>
+      </a>
+    </div>
+
+    <nav class="footer-nav" aria-label="바닥글 메뉴">
+      {%- for item in nav_items -%}
+        <a class="footer-link" href="{{ '/' | relative_url }}">{{ item | strip }}</a>
+      {%- endfor -%}
+    </nav>
+  </div>
+</footer>

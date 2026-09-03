@@ -1,0 +1,31 @@
+{%- assign nav_items = "Blog,Meetup Recaps,Dev Notes,GitHub &amp; Copilot,About,Archive" | split: "," -%}
+<header class="site-header">
+  <div class="site-header-inner wrapper">
+    <a class="brand" href="{{ '/' | relative_url }}">
+      <span class="brand-mark" aria-hidden="true">
+        <span class="brand-slash"></span>
+        <span class="brand-dot"></span>
+      </span>
+      <span class="brand-text">
+        <span class="brand-name">{{ site.title | default: "eunjibang.dev" }}</span>
+        <span class="brand-sub">Developer Blog</span>
+      </span>
+    </a>
+
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" hidden>
+    <label for="nav-toggle" class="nav-toggle-btn" aria-label="메뉴 열기">
+      <span></span><span></span><span></span>
+    </label>
+
+    <nav class="site-nav" aria-label="주 메뉴">
+      {%- for item in nav_items -%}
+        {%- assign label = item | strip -%}
+        {%- if forloop.first -%}
+          <a class="nav-link is-active" href="{{ '/' | relative_url }}">{{ label }}</a>
+        {%- else -%}
+          <a class="nav-link" href="{{ '/' | relative_url }}">{{ label }}</a>
+        {%- endif -%}
+      {%- endfor -%}
+    </nav>
+  </div>
+</header>

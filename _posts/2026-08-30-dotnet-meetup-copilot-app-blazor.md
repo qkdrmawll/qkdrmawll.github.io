@@ -1,6 +1,9 @@
 ---
 layout: post
 title: ".NET을 몰라도 GitHub Copilot App으로 Blazor 앱을 만들 수 있어요 — 8월 닷넷 밋업 발표 후기"
+headline: "GitHub Copilot App으로<br>Blazor 앱 만들기"
+hash: "d4e5f6g"
+commit_type: "feat"
 date: 2026-08-30 10:00:00 +0900
 image: /assets/images/posts/dotnet-meetup-copilot-app-blazor/session-title.png
 categories:
