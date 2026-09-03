@@ -1,10 +1,29 @@
 ---
 ---
 
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+
 @import "minima";
 
+$font-body: "Pretendard", -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo",
+  "Noto Sans KR", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
 body {
+  color: #1f2328;
+  font-family: $font-body;
+  font-size: 17px;
+  letter-spacing: -0.003em;
   word-break: keep-all;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-body;
+  letter-spacing: -0.02em;
 }
 
 .home-page {
@@ -174,20 +193,119 @@ body {
   color: #57606a;
 }
 
+.post-article {
+  margin: 0 auto;
+  max-width: 44rem;
+  padding: 1.5rem 0 4rem;
+}
+
+.post-header {
+  border-bottom: 1px solid #d0d7de;
+  margin-bottom: 2.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.post-eyebrow {
+  color: #9aa0a6;
+  font-size: 0.85rem;
+  font-weight: 500;
+  letter-spacing: 0;
+  margin-bottom: 1rem;
+  text-transform: none;
+}
+
+.post-title {
+  color: #1f2328;
+  font-size: clamp(1.8rem, 4.5vw, 2.4rem);
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  line-height: 1.35;
+  margin: 0 0 1.75rem;
+}
+
+.post-byline {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+}
+
+.post-avatar {
+  border-radius: 50%;
+  display: block;
+  height: 40px;
+  object-fit: cover;
+  width: 40px;
+}
+
+.post-author {
+  color: #1f2328;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.post-byline-dot {
+  color: #d0d7de;
+}
+
+.post-date {
+  color: #9aa0a6;
+  font-size: 0.9rem;
+}
+
 .post-content {
-  line-height: 1.75;
+  color: #24292f;
+  font-size: 1.06rem;
+  line-height: 1.85;
 }
 
 .post-content p,
 .post-content ol,
 .post-content ul,
-.post-content blockquote {
-  margin-bottom: 1.25rem;
+.post-content blockquote,
+.post-content table {
+  margin-bottom: 1.4rem;
 }
 
 .post-content h2 {
-  margin-bottom: 1rem;
-  margin-top: 2.75rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-bottom: 1.25rem;
+  margin-top: 3rem;
+}
+
+.post-content h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 0.9rem;
+  margin-top: 2.25rem;
+}
+
+.post-content ul,
+.post-content ol {
+  padding-left: 1.4rem;
+}
+
+.post-content li {
+  margin-bottom: 0.5rem;
+  padding-left: 0.2rem;
+}
+
+.post-content a {
+  color: #0969da;
+}
+
+.post-content strong {
+  color: #1f2328;
+  font-weight: 700;
+}
+
+.post-content code {
+  background: #f6f8fa;
+  border-radius: 0.35rem;
+  font-size: 0.9em;
+  padding: 0.15em 0.4em;
 }
 
 .post-figure {
@@ -203,18 +321,17 @@ body {
 }
 
 .post-figure figcaption {
-  color: #57606a;
+  color: #9aa0a6;
   font-size: 0.9rem;
-  margin-top: 0.5rem;
+  margin-top: 0.6rem;
   text-align: center;
 }
 
 .post-content blockquote {
-  background: #f6f8fa;
-  border-left-color: #8c959f;
-  color: #57606a;
+  border-left: none;
+  color: inherit;
   font-style: normal;
-  padding: 0.75rem 1rem;
+  padding: 0;
 }
 
 @media (max-width: 600px) {

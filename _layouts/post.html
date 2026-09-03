@@ -1,0 +1,32 @@
+---
+layout: default
+---
+{%- assign date_format = site.minima.date_format | default: "%Y년 %m월 %d일" -%}
+<article class="post-article h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <p class="post-eyebrow">
+      {%- if page.categories.size > 0 -%}
+        {{ page.categories | first }}
+      {%- else -%}
+        게시판
+      {%- endif -%}
+    </p>
+
+    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+
+    <div class="post-byline">
+      <img class="post-avatar" src="https://github.com/qkdrmawll.png?size=80" alt="" width="40" height="40" loading="lazy">
+      <span class="post-author p-author">qkdrmawll</span>
+      <span class="post-byline-dot" aria-hidden="true">·</span>
+      <time class="post-date dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {{ page.date | date: date_format }}
+      </time>
+    </div>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+</article>
