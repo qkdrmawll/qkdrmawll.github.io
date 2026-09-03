@@ -1,6 +1,9 @@
 ---
 layout: post
 title: "GitHub Copilot 멀티 에이전트 바이브 코딩 워크숍 프록터 참여 후기"
+headline: "멀티 에이전트<br>바이브 코딩 워크숍"
+hash: "a1b2c3d"
+commit_type: "feat"
 date: 2026-08-19 10:00:00 +0900
 image: /assets/images/posts/github-copilot-multi-agent-workshop/workshop-overview.jpg
 categories:
